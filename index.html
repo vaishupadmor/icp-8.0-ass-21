@@ -40,6 +40,25 @@
         .brand-mobile{
             text-align: right;
         }
+
+        .receipt-title{
+            font-size:30px;
+            text-align: center;
+            margin:40px 0; 
+        }
+
+        .receipt-detail-container{
+            display:flex;
+        }
+
+        .receipt-detail-key{
+            color:grey;
+
+        }
+
+        .receipt-detail-value{
+            font-weight: bold;
+        }
         
     </style>
 </head>
@@ -54,8 +73,20 @@
     </p>
     <p class="brand-mobile"> 02562 221 234</p>
 </div>
-<div class="receipt-body ">
 
+<hr>
+<div class="receipt-body ">
+<h1 class="receipt-title"> payment receipt</h1>
+
+<div class="receipt-detail-container">
+    <div class="receipt-detail-key">
+        Receipt-NO.:
+    </div>
+
+    <div class="receipt-detail-value">
+        1234589
+    </div>
+</div>
 </div>
 <div class="receipt-footer">
 
